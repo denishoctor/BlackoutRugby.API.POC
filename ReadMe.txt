@@ -1,0 +1,1 @@
+This is currently a simple Proof of Concept App for using the Blackout Rugby API. I'm keen for anyone who has an interest in Blackout Rugby and/or HTML5 and all that has come to encompass that term to get involved!

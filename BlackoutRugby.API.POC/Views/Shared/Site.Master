@@ -1,0 +1,49 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+        <link href="/static/css/site.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body id="index" class="home">
+
+        <header id="banner" class="body">
+	        <h1><a href="/">Blackout Rugby POC</a></h1>
+	        
+	        <nav>
+	            <ul>
+                    <li class="active"><%= Html.ActionLink("home", "Index", "Home")%></li>
+                    <%-- 
+		            <li><a href="#">docs</a></li>
+		            <li><a href="#">contact</a></li>
+		            <li><a href="#">about</a></li>
+		            --%>
+	            </ul>
+	        </nav>
+        </header>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+	    <footer id="contentinfo" class="body content">
+	        <section>
+	            <h3>Contribute!</h3>
+	            <p>See something you could do better or have an idea for us? Get in touch now and help us move Blackout Rugby forward.</p>
+	        </section>
+	        <section>
+	            <h3>About Us</h3>
+	            <p>Technically it's me, not us. I'm an Irish Developer based in Dublin on my way to Sydney. I wanted to get this site up and running since last year but have only just got the motivation and time.</p>
+	        </section>
+	    </footer>
+	    
+    </body>
+</html>
+
+
+
+
+
+
+
+
