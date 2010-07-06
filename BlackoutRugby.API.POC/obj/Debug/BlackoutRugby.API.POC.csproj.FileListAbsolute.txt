@@ -1,6 +1,0 @@
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\obj\Debug\ResolveAssemblyReference.cache
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\bin\BlackoutRugby.API.POC.dll
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\bin\BlackoutRugby.API.POC.pdb
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\bin\Newtonsoft.Json.xml
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\obj\Debug\BlackoutRugby.API.POC.dll
-C:\Websites\BlackoutRugby.API.POC\BlackoutRugby.API.POC\obj\Debug\BlackoutRugby.API.POC.pdb
