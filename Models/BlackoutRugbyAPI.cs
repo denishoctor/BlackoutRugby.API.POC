@@ -12,8 +12,8 @@ namespace BlackoutRugbyPOC.Controllers {
         public static string Request(string requestParams, string devKey, string devIV, string devID) {
             // Create an unencrypted request as an array of bytes
             byte[] request = UTF8Encoding.UTF8.GetBytes(requestParams);
-            byte[] key = UTF8Encoding.UTF8.GetBytes("GO8FzK17iPYKE2Kt");
-            byte[] iv = UTF8Encoding.UTF8.GetBytes("E2I51NEwsC3RdSNl");
+            byte[] key = UTF8Encoding.UTF8.GetBytes("xxx");
+            byte[] iv = UTF8Encoding.UTF8.GetBytes("xxx");
 
             AesCryptoServiceProvider aes = new AesCryptoServiceProvider();
             aes.Key = key;
